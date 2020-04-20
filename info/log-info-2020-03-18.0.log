@@ -1,0 +1,586 @@
+2020-03-18 18:04:10.762 [restartedMain] INFO  com.jl.BlogApplication - Starting BlogApplication on AI_jianglei_ccs with PID 10880 (D:\Channel_centralization-20190815\blog\target\classes started by 24246 in D:\Channel_centralization-20190815\blog)
+2020-03-18 18:04:10.770 [restartedMain] INFO  com.jl.BlogApplication - The following profiles are active: dev
+2020-03-18 18:04:10.839 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-18 18:04:10.840 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-18 18:04:12.004 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 18:04:12.007 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 18:04:12.077 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.BlogRepository.
+2020-03-18 18:04:12.079 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.CommentRepository.
+2020-03-18 18:04:12.080 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TagRepository.
+2020-03-18 18:04:12.083 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TypeRepository.
+2020-03-18 18:04:12.084 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.UserRepository.
+2020-03-18 18:04:12.084 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 0 repository interfaces.
+2020-03-18 18:04:12.093 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 18:04:12.093 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 18:04:12.172 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 5 repository interfaces.
+2020-03-18 18:04:12.718 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ed89211] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-18 18:04:13.544 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-18 18:04:13.581 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 18:04:13.600 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-18 18:04:13.601 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-18 18:04:13.816 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-18 18:04:13.816 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2975 ms
+2020-03-18 18:04:14.089 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 18:04:17.395 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-18 18:04:17.578 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-18 18:04:17.580 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-18 18:04:17.858 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-18 18:04:18.212 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 18:04:21.320 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-18 18:04:21.336 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-18 18:05:03.433 [restartedMain] INFO  com.jl.BlogApplication - Starting BlogApplication on AI_jianglei_ccs with PID 16124 (D:\Channel_centralization-20190815\blog\target\classes started by 24246 in D:\Channel_centralization-20190815\blog)
+2020-03-18 18:05:03.435 [restartedMain] INFO  com.jl.BlogApplication - The following profiles are active: dev
+2020-03-18 18:05:03.483 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-18 18:05:03.483 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-18 18:05:04.396 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 18:05:04.398 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 18:05:04.463 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.BlogRepository.
+2020-03-18 18:05:04.465 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.CommentRepository.
+2020-03-18 18:05:04.467 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TagRepository.
+2020-03-18 18:05:04.469 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TypeRepository.
+2020-03-18 18:05:04.472 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.UserRepository.
+2020-03-18 18:05:04.472 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 0 repository interfaces.
+2020-03-18 18:05:04.480 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 18:05:04.481 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 18:05:04.557 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 5 repository interfaces.
+2020-03-18 18:05:05.062 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f9a2c434] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-18 18:05:05.726 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-18 18:05:05.743 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 18:05:05.763 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-18 18:05:05.763 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-18 18:05:05.932 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-18 18:05:05.933 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2450 ms
+2020-03-18 18:05:06.171 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 18:05:06.335 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-18 18:05:06.475 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-18 18:05:06.565 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-18 18:05:06.568 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-18 18:05:06.699 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-18 18:05:06.971 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-18 18:05:08.583 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-18 18:05:08.704 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-18 18:05:09.350 [restartedMain] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-18 18:05:10.644 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 18:05:10.836 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-18 18:05:11.936 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-18 18:05:11.957 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 18:05:11.959 [restartedMain] INFO  com.jl.BlogApplication - Started BlogApplication in 9.235 seconds (JVM running for 10.595)
+2020-03-18 18:05:37.049 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 18:05:37.050 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-18 18:05:37.067 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2020-03-18 18:05:37.150 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 18:05:37.320 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:05:37.321 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 18:05:40.169 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[23, {}]}
+2020-03-18 18:05:40.279 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:05:40.280 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:05:41.424 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:05:41.511 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:05:41.511 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:05:50.137 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[25, {}]}
+2020-03-18 18:05:50.149 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:05:50.149 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:05:50.704 [http-nio-8080-exec-5] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[25, {}]}
+2020-03-18 18:05:50.710 [http-nio-8080-exec-5] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:05:50.711 [http-nio-8080-exec-5] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:06:03.237 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='小白', email='1228322185@qq.com', content='评论ing', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@1b7e8c9]}
+2020-03-18 18:06:03.275 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:06:03.275 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/25
+2020-03-18 18:06:03.293 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/25;jsessionid=C1F448FE940EC2A38F30FF8DA3FD2EC2', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[25, {}]}
+2020-03-18 18:06:03.298 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:06:03.298 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:06:12.706 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 18:06:12.729 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:06:12.729 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 18:06:14.334 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[23, {}]}
+2020-03-18 18:06:14.353 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:06:14.354 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:06:15.311 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:06:15.325 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:06:15.326 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:06:21.747 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 18:06:21.771 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:06:21.771 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 18:06:23.208 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[25, {}]}
+2020-03-18 18:06:23.221 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:06:23.222 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:06:23.812 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[25, {}]}
+2020-03-18 18:06:23.822 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:06:23.823 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:20:44.547 [restartedMain] INFO  com.jl.BlogApplication - Starting BlogApplication on AI_jianglei_ccs with PID 4028 (D:\Channel_centralization-20190815\blog\target\classes started by 24246 in D:\Channel_centralization-20190815\blog)
+2020-03-18 18:20:44.549 [restartedMain] INFO  com.jl.BlogApplication - The following profiles are active: dev
+2020-03-18 18:20:44.599 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-18 18:20:44.599 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-18 18:20:45.541 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 18:20:45.543 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 18:20:45.600 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.BlogRepository.
+2020-03-18 18:20:45.601 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.CommentRepository.
+2020-03-18 18:20:45.605 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TagRepository.
+2020-03-18 18:20:45.607 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TypeRepository.
+2020-03-18 18:20:45.608 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.UserRepository.
+2020-03-18 18:20:45.609 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61ms. Found 0 repository interfaces.
+2020-03-18 18:20:45.616 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 18:20:45.616 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 18:20:45.694 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 5 repository interfaces.
+2020-03-18 18:20:46.257 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e75d067a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-18 18:20:46.972 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-18 18:20:46.993 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 18:20:47.013 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-18 18:20:47.014 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-18 18:20:47.196 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-18 18:20:47.197 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2598 ms
+2020-03-18 18:20:47.445 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 18:20:47.599 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-18 18:20:47.744 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-18 18:20:47.822 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-18 18:20:47.824 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-18 18:20:47.971 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-18 18:20:48.271 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-18 18:20:49.520 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-18 18:20:49.614 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-18 18:20:50.080 [restartedMain] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-18 18:20:50.970 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 18:20:51.116 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-18 18:20:52.065 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-18 18:20:52.093 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 18:20:52.096 [restartedMain] INFO  com.jl.BlogApplication - Started BlogApplication in 8.248 seconds (JVM running for 9.848)
+2020-03-18 18:21:02.384 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 18:21:02.384 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-18 18:21:02.411 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 27 ms
+2020-03-18 18:21:02.456 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 18:21:02.603 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:02.604 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 18:21:03.791 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[23, {}]}
+2020-03-18 18:21:03.873 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:03.873 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:21:04.772 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:21:04.860 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:04.861 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:21:24.687 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='小红', email='1228322185@qq.com', content='这里是小红', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@c754aa]}
+2020-03-18 18:21:24.728 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:24.729 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/23
+2020-03-18 18:21:24.747 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:21:24.758 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:24.759 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:21:35.171 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='小小白', email='1228322185@qq.com', content='这里是小小白', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@c754aa]}
+2020-03-18 18:21:35.189 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:35.189 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/23
+2020-03-18 18:21:35.195 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:21:35.206 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:35.206 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:21:44.170 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='小小白', email='1228322185@qq.com', content='这里是小蓝', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@c754aa]}
+2020-03-18 18:21:44.181 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:44.182 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/23
+2020-03-18 18:21:44.189 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:21:44.200 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:44.200 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:21:52.518 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 18:21:52.538 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:52.539 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 18:21:54.687 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[23, {}]}
+2020-03-18 18:21:54.707 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:54.708 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:21:55.493 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:21:55.509 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:21:55.510 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:22:03.125 [http-nio-8080-exec-5] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[25, {}]}
+2020-03-18 18:22:03.134 [http-nio-8080-exec-5] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:22:03.135 [http-nio-8080-exec-5] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:22:03.701 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[25, {}]}
+2020-03-18 18:22:03.707 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:22:03.707 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:22:17.686 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='小白', email='1228322185@qq.com', content='这里是小白', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@c754aa]}
+2020-03-18 18:22:17.701 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:22:17.701 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/25
+2020-03-18 18:22:17.711 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[25, {}]}
+2020-03-18 18:22:17.716 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:22:17.717 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:22:32.211 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='小白', email='1228322185@qq.com', content='这里是小小白', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@c754aa]}
+2020-03-18 18:22:32.224 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:22:32.224 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/25
+2020-03-18 18:22:32.229 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[25, {}]}
+2020-03-18 18:22:32.238 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:22:32.239 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:22:46.350 [http-nio-8080-exec-5] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='小红', email='1228322185@qq.com', content='这里是小红', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@c754aa]}
+2020-03-18 18:22:46.359 [http-nio-8080-exec-5] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:22:46.359 [http-nio-8080-exec-5] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/25
+2020-03-18 18:22:46.365 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[25, {}]}
+2020-03-18 18:22:46.373 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:22:46.373 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:22:56.833 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='小烂', email='1228322185@qq.com', content='这里小蓝', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@c754aa]}
+2020-03-18 18:22:56.845 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:22:56.845 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/25
+2020-03-18 18:22:56.849 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[25, {}]}
+2020-03-18 18:22:56.857 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:22:56.858 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:23:13.650 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='小自', email='1228322185@qq.com', content='这里是小子', avatar='null', createTime=null}, org.apache.catalina.session.StandardSessionFacade@c754aa]}
+2020-03-18 18:23:13.662 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:23:13.662 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/25
+2020-03-18 18:23:13.666 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[25, {}]}
+2020-03-18 18:23:13.682 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:23:13.683 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:23:21.964 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[25, {}]}
+2020-03-18 18:23:21.972 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:23:21.972 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:23:22.546 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/25', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[25, {}]}
+2020-03-18 18:23:22.578 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:23:22.579 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:31:25.755 [restartedMain] INFO  com.jl.BlogApplication - Starting BlogApplication on AI_jianglei_ccs with PID 18776 (D:\Channel_centralization-20190815\blog\target\classes started by 24246 in D:\Channel_centralization-20190815\blog)
+2020-03-18 18:31:25.757 [restartedMain] INFO  com.jl.BlogApplication - The following profiles are active: dev
+2020-03-18 18:31:25.820 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-18 18:31:25.821 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-18 18:31:26.760 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 18:31:26.762 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 18:31:26.824 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.BlogRepository.
+2020-03-18 18:31:26.826 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.CommentRepository.
+2020-03-18 18:31:26.828 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TagRepository.
+2020-03-18 18:31:26.830 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TypeRepository.
+2020-03-18 18:31:26.837 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.UserRepository.
+2020-03-18 18:31:26.838 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71ms. Found 0 repository interfaces.
+2020-03-18 18:31:26.845 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 18:31:26.845 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 18:31:26.940 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91ms. Found 5 repository interfaces.
+2020-03-18 18:31:27.458 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$91aaffe0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-18 18:31:28.248 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-18 18:31:28.265 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 18:31:28.286 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-18 18:31:28.286 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-18 18:31:28.468 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-18 18:31:28.470 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2649 ms
+2020-03-18 18:31:28.724 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 18:31:28.873 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-18 18:31:29.050 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-18 18:31:29.133 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-18 18:31:29.137 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-18 18:31:29.290 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-18 18:31:29.595 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-18 18:31:30.747 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-18 18:31:30.856 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-18 18:31:31.323 [restartedMain] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-18 18:31:32.224 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 18:31:32.387 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-18 18:31:33.337 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-18 18:31:33.360 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 18:31:33.365 [restartedMain] INFO  com.jl.BlogApplication - Started BlogApplication in 8.355 seconds (JVM running for 10.11)
+2020-03-18 18:31:59.792 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 18:31:59.793 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-18 18:31:59.810 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2020-03-18 18:31:59.852 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 18:32:00.019 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:32:00.019 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 18:32:15.019 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 18:32:15.035 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:32:15.035 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 18:32:17.870 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[23, {}]}
+2020-03-18 18:32:17.935 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:32:17.936 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:32:19.148 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:32:19.222 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:32:19.223 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:32:31.046 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='姜磊', email='jianglei3@asiainfo.com', content='管理员评论', avatar='null', createTime=null, blog=Blog{id=23, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, tagIds='null', type=null, tags=[], description='null', user=null, comments=[]}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@18ea43e]}
+2020-03-18 18:32:31.080 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:32:31.081 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/23
+2020-03-18 18:32:31.103 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:32:31.114 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:32:31.114 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:32:38.778 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.post', args=[Comment{id=null, nickname='姜磊', email='jianglei3@asiainfo.com', content='管理员评论', avatar='null', createTime=null, blog=Blog{id=23, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentabled=false, published=false, recommend=false, createTime=null, updateTime=null, tagIds='null', type=null, tags=[], description='null', user=null, comments=[]}, replyComments=[], parentComment=Comment{id=34, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@18ea43e]}
+2020-03-18 18:32:38.795 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:32:38.795 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Result : redirect:/comments/23
+2020-03-18 18:32:38.800 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:32:38.819 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:32:38.819 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:38:35.860 [restartedMain] INFO  com.jl.BlogApplication - Starting BlogApplication on AI_jianglei_ccs with PID 9324 (D:\Channel_centralization-20190815\blog\target\classes started by 24246 in D:\Channel_centralization-20190815\blog)
+2020-03-18 18:38:35.862 [restartedMain] INFO  com.jl.BlogApplication - The following profiles are active: dev
+2020-03-18 18:38:35.920 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-18 18:38:35.920 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-18 18:38:36.816 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 18:38:36.818 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 18:38:36.947 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.BlogRepository.
+2020-03-18 18:38:36.950 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.CommentRepository.
+2020-03-18 18:38:36.952 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TagRepository.
+2020-03-18 18:38:36.953 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TypeRepository.
+2020-03-18 18:38:36.955 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.UserRepository.
+2020-03-18 18:38:36.955 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133ms. Found 0 repository interfaces.
+2020-03-18 18:38:36.967 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 18:38:36.967 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 18:38:37.057 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84ms. Found 5 repository interfaces.
+2020-03-18 18:38:37.538 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$795f7c68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-18 18:38:38.216 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-18 18:38:38.235 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 18:38:38.257 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-18 18:38:38.258 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-18 18:38:38.457 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-18 18:38:38.458 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2538 ms
+2020-03-18 18:38:38.733 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 18:38:38.922 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-18 18:38:38.997 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-18 18:38:39.090 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-18 18:38:39.093 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-18 18:38:39.244 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-18 18:38:39.517 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-18 18:38:40.553 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-18 18:38:40.653 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-18 18:38:41.080 [restartedMain] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-18 18:38:42.046 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 18:38:42.194 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-18 18:38:42.975 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-18 18:38:42.997 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 18:38:43.000 [restartedMain] INFO  com.jl.BlogApplication - Started BlogApplication in 7.905 seconds (JVM running for 9.478)
+2020-03-18 18:39:02.132 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 18:39:02.133 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-18 18:39:02.152 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2020-03-18 18:39:02.209 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[23, {}]}
+2020-03-18 18:39:02.400 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:39:02.401 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:39:03.640 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:39:03.707 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:39:03.707 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:39:04.928 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[23, {}]}
+2020-03-18 18:39:04.941 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:39:04.941 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:39:05.692 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:39:05.710 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:39:05.710 [http-nio-8080-exec-2] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:39:06.778 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/blog/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.blog', args=[23, {}]}
+2020-03-18 18:39:06.796 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:39:06.797 [http-nio-8080-exec-10] INFO  com.jl.asspect.LogAspect - Result : blog
+2020-03-18 18:39:07.512 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/comments/23', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.CommentController.comments', args=[23, {}]}
+2020-03-18 18:39:07.541 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:39:07.541 [http-nio-8080-exec-4] INFO  com.jl.asspect.LogAspect - Result : blog :: commentList
+2020-03-18 18:39:46.898 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 18:39:46.956 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 18:39:46.956 [http-nio-8080-exec-8] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 19:00:50.802 [restartedMain] INFO  com.jl.BlogApplication - Starting BlogApplication on AI_jianglei_ccs with PID 11912 (D:\Channel_centralization-20190815\blog\target\classes started by 24246 in D:\Channel_centralization-20190815\blog)
+2020-03-18 19:00:50.805 [restartedMain] INFO  com.jl.BlogApplication - The following profiles are active: dev
+2020-03-18 19:00:50.861 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-18 19:00:50.861 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-18 19:00:51.706 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 19:00:51.708 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 19:00:51.764 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.BlogRepository.
+2020-03-18 19:00:51.765 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.CommentRepository.
+2020-03-18 19:00:51.767 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TagRepository.
+2020-03-18 19:00:51.769 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TypeRepository.
+2020-03-18 19:00:51.770 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.UserRepository.
+2020-03-18 19:00:51.772 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59ms. Found 0 repository interfaces.
+2020-03-18 19:00:51.780 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 19:00:51.781 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 19:00:51.887 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103ms. Found 5 repository interfaces.
+2020-03-18 19:00:52.339 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a24238c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-18 19:00:52.980 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-18 19:00:52.994 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 19:00:53.013 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-18 19:00:53.014 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-18 19:00:53.170 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-18 19:00:53.171 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2310 ms
+2020-03-18 19:00:53.413 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 19:00:53.557 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-18 19:00:53.690 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-18 19:00:53.766 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-18 19:00:53.769 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-18 19:00:53.900 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-18 19:00:54.158 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-18 19:00:55.212 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-18 19:00:55.300 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-18 19:00:55.740 [restartedMain] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-18 19:00:56.568 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 19:00:56.716 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-18 19:00:57.602 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-18 19:00:57.627 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 19:00:57.630 [restartedMain] INFO  com.jl.BlogApplication - Started BlogApplication in 7.631 seconds (JVM running for 9.24)
+2020-03-18 19:01:05.447 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 19:01:05.447 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-18 19:01:05.460 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-03-18 19:01:05.511 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 19:01:05.660 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 19:01:05.661 [http-nio-8080-exec-1] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 19:01:13.243 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 19:01:13.259 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 19:01:13.259 [http-nio-8080-exec-7] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 19:01:48.403 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 19:01:48.417 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 19:01:48.418 [http-nio-8080-exec-3] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 19:07:06.846 [restartedMain] INFO  com.jl.BlogApplication - Starting BlogApplication on AI_jianglei_ccs with PID 2260 (D:\Channel_centralization-20190815\blog\target\classes started by 24246 in D:\Channel_centralization-20190815\blog)
+2020-03-18 19:07:06.849 [restartedMain] INFO  com.jl.BlogApplication - The following profiles are active: dev
+2020-03-18 19:07:06.895 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-18 19:07:06.895 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-18 19:07:07.736 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 19:07:07.738 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 19:07:07.793 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.BlogRepository.
+2020-03-18 19:07:07.796 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.CommentRepository.
+2020-03-18 19:07:07.797 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TagRepository.
+2020-03-18 19:07:07.798 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TypeRepository.
+2020-03-18 19:07:07.799 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.UserRepository.
+2020-03-18 19:07:07.800 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58ms. Found 0 repository interfaces.
+2020-03-18 19:07:07.807 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 19:07:07.807 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 19:07:07.881 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 5 repository interfaces.
+2020-03-18 19:07:08.405 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a95f32a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-18 19:07:09.087 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-18 19:07:09.103 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 19:07:09.129 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-18 19:07:09.129 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-18 19:07:09.294 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-18 19:07:09.295 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2400 ms
+2020-03-18 19:07:09.522 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 19:07:09.654 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-18 19:07:09.807 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-18 19:07:09.876 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-18 19:07:09.878 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-18 19:07:10.017 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-18 19:07:10.313 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-18 19:07:11.337 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-18 19:07:11.434 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-18 19:07:11.840 [restartedMain] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-18 19:07:12.672 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 19:07:12.812 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-18 19:07:13.701 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-18 19:07:13.725 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 19:07:13.728 [restartedMain] INFO  com.jl.BlogApplication - Started BlogApplication in 7.573 seconds (JVM running for 9.027)
+2020-03-18 19:07:21.595 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 19:07:21.595 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-18 19:07:21.611 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-03-18 19:07:24.588 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 19:07:24.624 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 19:07:24.625 [http-nio-8080-exec-9] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 19:08:07.895 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - Request :RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jl.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-03-18 19:08:07.914 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - --------------------doAfter-----------------
+2020-03-18 19:08:07.914 [http-nio-8080-exec-6] INFO  com.jl.asspect.LogAspect - Result : index
+2020-03-18 19:08:51.855 [restartedMain] INFO  com.jl.BlogApplication - Starting BlogApplication on AI_jianglei_ccs with PID 8588 (D:\Channel_centralization-20190815\blog\target\classes started by 24246 in D:\Channel_centralization-20190815\blog)
+2020-03-18 19:08:51.862 [restartedMain] INFO  com.jl.BlogApplication - The following profiles are active: dev
+2020-03-18 19:08:52.090 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-18 19:08:52.091 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-18 19:08:53.348 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 19:08:53.350 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 19:08:53.409 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.BlogRepository.
+2020-03-18 19:08:53.411 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.CommentRepository.
+2020-03-18 19:08:53.413 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TagRepository.
+2020-03-18 19:08:53.414 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TypeRepository.
+2020-03-18 19:08:53.416 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.UserRepository.
+2020-03-18 19:08:53.416 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58ms. Found 0 repository interfaces.
+2020-03-18 19:08:53.432 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 19:08:53.433 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 19:08:53.525 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89ms. Found 5 repository interfaces.
+2020-03-18 19:08:54.109 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b4ddb19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-18 19:08:54.993 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-18 19:08:55.011 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 19:08:55.040 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-18 19:08:55.040 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-18 19:08:55.238 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-18 19:08:55.238 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3147 ms
+2020-03-18 19:08:55.518 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 19:08:55.741 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-18 19:08:55.814 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-18 19:08:55.908 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-18 19:08:55.910 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-18 19:08:56.089 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-18 19:08:56.397 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-18 19:08:57.660 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-18 19:08:57.802 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-18 19:08:58.372 [restartedMain] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-18 19:08:59.468 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 19:08:59.722 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-18 19:09:00.749 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-18 19:09:00.779 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 19:09:00.783 [restartedMain] INFO  com.jl.BlogApplication - Started BlogApplication in 10.022 seconds (JVM running for 12.601)
+2020-03-18 19:11:13.320 [restartedMain] INFO  com.jl.BlogApplication - Starting BlogApplication on AI_jianglei_ccs with PID 1772 (D:\Channel_centralization-20190815\blog\target\classes started by 24246 in D:\Channel_centralization-20190815\blog)
+2020-03-18 19:11:13.322 [restartedMain] INFO  com.jl.BlogApplication - The following profiles are active: dev
+2020-03-18 19:11:13.371 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-18 19:11:13.371 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-18 19:11:14.159 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 19:11:14.160 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 19:11:14.215 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.BlogRepository.
+2020-03-18 19:11:14.216 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.CommentRepository.
+2020-03-18 19:11:14.218 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TagRepository.
+2020-03-18 19:11:14.219 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TypeRepository.
+2020-03-18 19:11:14.220 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.UserRepository.
+2020-03-18 19:11:14.221 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 0 repository interfaces.
+2020-03-18 19:11:14.229 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 19:11:14.229 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 19:11:14.300 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 5 repository interfaces.
+2020-03-18 19:11:14.786 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cec48401] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-18 19:11:15.458 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-18 19:11:15.475 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 19:11:15.498 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-18 19:11:15.498 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-18 19:11:15.651 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-18 19:11:15.654 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2283 ms
+2020-03-18 19:11:15.884 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 19:11:16.007 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-18 19:11:16.131 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-18 19:11:16.202 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-18 19:11:16.203 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-18 19:11:16.330 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-18 19:11:16.595 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-18 19:11:17.585 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-18 19:11:17.681 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-18 19:11:18.107 [restartedMain] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-18 19:11:19.131 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 19:11:19.266 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-18 19:11:20.190 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-18 19:11:20.213 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 19:11:20.215 [restartedMain] INFO  com.jl.BlogApplication - Started BlogApplication in 7.541 seconds (JVM running for 8.931)
+2020-03-18 19:11:20.632 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 19:11:20.632 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-18 19:11:20.649 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-03-18 19:11:44.375 [restartedMain] INFO  com.jl.BlogApplication - Starting BlogApplication on AI_jianglei_ccs with PID 3980 (D:\Channel_centralization-20190815\blog\target\classes started by 24246 in D:\Channel_centralization-20190815\blog)
+2020-03-18 19:11:44.377 [restartedMain] INFO  com.jl.BlogApplication - The following profiles are active: dev
+2020-03-18 19:11:44.428 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-18 19:11:44.428 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-18 19:11:45.245 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 19:11:45.246 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 19:11:45.331 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.BlogRepository.
+2020-03-18 19:11:45.333 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.CommentRepository.
+2020-03-18 19:11:45.334 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TagRepository.
+2020-03-18 19:11:45.335 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.TypeRepository.
+2020-03-18 19:11:45.337 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.jl.dao.UserRepository.
+2020-03-18 19:11:45.338 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87ms. Found 0 repository interfaces.
+2020-03-18 19:11:45.345 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-18 19:11:45.345 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-18 19:11:45.420 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71ms. Found 5 repository interfaces.
+2020-03-18 19:11:45.903 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f4865789] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-18 19:11:46.640 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-18 19:11:46.657 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-18 19:11:46.678 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-18 19:11:46.678 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-03-18 19:11:46.848 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-18 19:11:46.849 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2421 ms
+2020-03-18 19:11:47.097 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-03-18 19:11:47.292 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-03-18 19:11:47.355 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-18 19:11:47.445 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2020-03-18 19:11:47.449 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-03-18 19:11:47.591 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-18 19:11:47.862 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-18 19:11:49.003 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-18 19:11:49.107 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-18 19:11:49.599 [restartedMain] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-03-18 19:11:50.475 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-18 19:11:50.600 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-03-18 19:11:51.498 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-18 19:11:51.521 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-18 19:11:51.524 [restartedMain] INFO  com.jl.BlogApplication - Started BlogApplication in 7.81 seconds (JVM running for 9.218)
+2020-03-18 19:11:51.712 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-18 19:11:51.713 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-18 19:11:51.736 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms

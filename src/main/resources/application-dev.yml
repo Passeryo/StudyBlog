@@ -1,0 +1,41 @@
+
+#配置文件
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+   datasource:
+     username: root
+#     主机
+     password: Mysql@123
+#    本地
+#     password: mysql
+#     主机
+#     url: jdbc:mysql://101.201.235.132:3306/blog?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+     url: jdbc:mysql://101.201.235.132:3306/blog?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+#     url: jdbc:mysql://localhost2:3308/blog?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+#     type: com.alibaba.druid.pool.DruidDataSource
+     driver-class-name: com.mysql.cj.jdbc.Driver
+   thymeleaf:
+     check-template-location: false
+   jpa:
+     hibernate:
+       ddl-auto: update
+     show-sql: true
+#   jpa:
+#     hibernate:
+#       ddl-auto: update
+#      show-sql: true
+
+
+
+
+######################################
+########### 控制台打印SQL语句
+######################################
+logging:
+  level:
+    root: info
+#  pattern:
+#    console: '%p%m%n'
